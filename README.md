@@ -1,7 +1,7 @@
 Website-Elevon
 ===========
 # What is this project?
-This is a website currently in development for my DJ/music producer alias, Elevon.
+This is a website currently in development for the self-promotion of my DJ/music producer alias, Elevon.
 
 # What was used in the construction of this website?
 HTML/CSS and Javascript.

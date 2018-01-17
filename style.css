@@ -1,0 +1,85 @@
+body {
+	background-color: rgb(0, 0, 22);
+}
+footer {
+	margin-top: 30px;
+	text-align: center;
+}
+
+* {
+	margin:0px;
+	padding:0px;
+	font-family:sans-serif;
+}
+
+#sidebar {
+	position:fixed;
+	width:130px;
+	height:100%;
+	background:#151719;
+	left:-200px;
+	transition: all 200ms linear;
+}
+#sidebar.active {
+	left:0px;
+}
+#sidebar ul li {
+	color:rgba(230,230,230,0.9);
+	list-style:none;
+	padding:15px 10px;
+	border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn {
+	position:absolute;
+	left:210px;
+	top:20px;
+}
+#sidebar .toggle-btn span {
+	display:block;
+	width:30px;
+	height:5px;
+	background: rgba(230,230,230,0.9);
+	margin: 5px 0px;
+}
+.homeBtn:hover, .aboutBtn:hover, .upcomingBtn:hover, .contactBtn:hover {
+	background-color: black;
+	color:white;
+}
+
+h1 {
+	color: white;
+	font-family: Arial;
+	text-align: center;
+}
+
+p {
+	color: white;
+	font-family: Tahoma;
+	font-size: 15px;
+	
+}
+
+#bannerImage {
+	text-align: center;
+}
+#booking {
+	text-align: center;
+}
+
+#socialMedia {
+	text-align: center;
+	margin-top: 20px;
+}
+.socialBtn {
+		width: 150px;
+		border: 1px solid #359add;
+		border-radius:1em;
+		padding: 10px;
+	}
+.socialBtn:hover {
+	border: solid #36AFFF;
+	border-radius: 1em;
+
+	background-color:#36AFFF;
+	-webkit-box-shadow: 0 0 15px white;
+}
